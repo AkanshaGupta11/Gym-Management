@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 require('./DBConn/conn');
 
 app.use(cors({
-    origin :'http://localhost:3000',
+    origin :['http://localhost:3000','https://gym-management-snowy-six.vercel.app/'],
     credentials:true
 }))
 app.use(express.json());
