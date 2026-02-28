@@ -6,7 +6,7 @@ import SignalCellularAltIcon from '@mui/icons-material/SignalCellularAlt';
 import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
 import ErrorIcon from '@mui/icons-material/Error';
 import ReportIcon from '@mui/icons-material/Report';
-import Card from '../../components/Common/card';
+import Card from '../../components/Common/Card';
 
 function Dashboard() {
     const [menu , setMenu] = useState(false);
